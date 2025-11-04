@@ -28,7 +28,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",  # Local development
         "http://localhost:5173",  # Vite dev server
-        "https://*.vercel.app",   # Vercel preview deployments
+        "https://gruenderai-frontend.vercel.app",   # Vercel preview deployments
         "https://gruenderai.com", # Production domain (update with yours)
         "https://www.gruenderai.com"
     ],
